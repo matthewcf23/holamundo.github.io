@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body bgcolor=#39F2E4>
+    <h1>Formulario de Registro</h1>
+    <form action="formularios.html" method="post">
+      <b>Nombre</b><br>
+      <input type=text name="nombre"><br>
+      <br>
+      <b>Sexo</b><br>
+      <input type=radio name="sexo">
+      <label>Masculino</label><br>
+      <input type=radio name="sexo">
+      <label>Femenino</label><br>
+      <b>Edad</b><br>
+      <input type=number name="edad" min="1"><br>
+      <br>
+      <b>Correo electronico</b><br>
+      <input type=email placeholder="abc@mail.com"><br>
+      <br>
+      <b>Idiomas que habla</b><br>
+      <input type="checkbox">
+      <label>Español</label><br>
+      <input type="checkbox">
+      <label>Inglés</label><br>
+      <input type="checkbox">
+      <label>Frances</label><br>
+      <input type="checkbox">
+      <label>Chino Mandarín</label><br>
+      <br>
+      <b>¿En que departamento vive?</b><br>
+      <select name="dep"><br>
+      <option>Santa Cruz</option>
+      <option>La Paz</option>
+      <option>Cochabamba</option>
+      <option>Pando</option>
+      <option>Beni</option>
+      <option>Chuquisaca</option>
+      <option>Oruro</option>
+      <option>Tarija</option>
+      <option>Potosi</option>
+      </select>
+      <br>
+      <br>
+      <b>Comentarios sobre el formulario</b><br>
+      <textarea name="comentario" cols="30" rows="10" placeholder="Comentario"></textarea><br>
+      <br>
+      <input type=submit>
+      <input type=reset>
+  </body>
+</html>
