@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Axl Padilla Valenzuela</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .frame {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+        }
+
+        #frame1 {
+            left: 0;
+            width: 30%;
+        }
+
+        #frame2 {
+            left: 30%;
+            width: 40%;
+            background-color: #f2f2f2;
+        }
+
+        #frame3 {
+            right: 0;
+            width: 30%;
+        }
+
+        /* Estilos para el formulario */
+        form {
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <nav>
+        <h2>REGISTRO DE ESTUDIANTES</h2>
+    </nav>
+
+    <form action="/submit_formulario" method="post">
+        <div>
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" name="codigo" required>
+        </div>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="paterno">Apellido Paterno:</label>
+            <input type="text" id="paterno" name="paterno" required>
+        </div>
+        <div>
+            <label for="materno">Apellido Materno:</label>
+            <input type="text" id="materno" name="materno" required>
+        </div>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label>
+        </div>
+        <div>
+            <label for="estudioa">Nivel de Estudios:</label>
+            <br>
+            <input type="checkbox" id="no_tiene" name="no_tiene" value="no_tiene">
+            <label for="no_tiene">No Tiene</label>
+            <br>
+            <input type="checkbox" id="tecnico" name="tecnico" value="tecnico">
+            <label for="tecnico">Técnico</label>
+            <br>
+            <input type="checkbox" id="universitario" name="universitario" value="universitario">
+            <label for="universitario">Universitario</label>
+        </div>
+        <div>
+            <label for="departamento">Departamento:</label>
+            <select id="departamento" name="departamento" required>
+                <option value="-">-</option>
+                <option value="Beni">Beni</option>
+                <option value="Chuquisaca">Chuquisaca</option>
+                <option value="Cochabamba">Cochabamba</option>
+                <option value="La Paz">La Paz</option>
+                <option value="Oruro">Oruro</option>
+                <option value="Pando">Pando</option>
+                <option value="Potosi">Potosí</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Tarija">Tarija</option>
+            </select>
+        </div>
+        <div>
+            <label for="cv">Seleccione su Currículum Vitae:</label><br>
+            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx"><br><br>
+        </div>
+        <div>
+            <label for="foto">Seleccione su Foto:</label><br>
+            <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+        </div>
+    </form>
+    <footer> <input type="submit" value="REGISTRAR ESTUDIANTE"></footer>
+</body>
+</html>
+
+    <!-- Marco 2 - Contenido -->
+    <!-- Marco 2 - Página interna -->
+<div id="frame2" class="frame">
+    <h2>Perfil de Usuario</h2>
+    <img src="Camila Vega.png" alt="Avatar">
+    <p>Nombre: Camila Vega</p>
+    <p>Correo electrónico: camila@example.com</p>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+    <!-- Marco 3 - Contenido -->
+  <!-- Marco 3 - Página externa -->
+<div id="frame3" class="frame">
+    <iframe src="https://es.wikipedia.org/wiki/Wikipedia:Portada" frameborder="0" width="100%" height="100%"></iframe>
+</div>
