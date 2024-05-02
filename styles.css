@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Color de fondo elegante */
+    color: #333333; /* Color de texto elegante */
+}
+
+/* Estilos para los marcos */
+frame {
+    position: fixed; /* Establecer posición fija */
+    top: 0; /* Alinear arriba */
+    left: 0; /* Alinear a la izquierda */
+    width: 50%; /* Ancho del marco */
+    height: 100%; /* Altura del marco */
+    border: none; /* Eliminar el borde */
+}
+
+/* Estilos para el título */
+#titulo {
+    background-color: #8C52FF; /* Color de fondo atractivo para el título */
+    color: #ffffff; /* Color de texto blanco para el título */
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Estilos para el marco superior */
+#marco1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el marco central */
+#marco2 {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Estilos para el marco lateral */
+#marco3 {
+    background-color: #e6e6e6;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los marcos */
+frame {
+    border: none;
+}
+
+/* Estilos para el encabezado */
+h2 {
+    color: #333333;
+    margin-top: 0;
+}
+
+.marco2{
+    color: #ffffff;
+}
+
+/* Estilos para los formularios */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #cccccc;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página con Marcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<frameset cols="50%,50%">
+    <frame src="formulario.html" name="marco1">
+    <frameset rows="50%,50%">
+        <frame src="pagina_interna.html" name="marco2">
+        <frame src="pagina_externa.html" name="marco3">
+    </frameset>
+</frameset>
+
+<noframes>
+    <body>
+        <p>Tu navegador no admite marcos (frames).</p>
+    </body>
+</noframes>
+
+</html>
